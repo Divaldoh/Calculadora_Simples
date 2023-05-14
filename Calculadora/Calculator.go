@@ -23,11 +23,9 @@ func main() {
 	case "/":
 		if n2 == 0 {
 			fmt.Println("Não é possível que o divisor seja zero.")
-		} if else {
+		} else {
 			fmt.Printf("%.2f / %.2f = %.2f\n", n1, n2, n1/n2)//a melhor coisa que aprendi fazendo esse repositório
-		} if else n1==0{
-			fmt.Println("Não é possível que o dividendo seja zero.")
-		}
+		} 
 	default:
 		fmt.Println("Operação inválida.")
 	}
