@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var op, lan string
 	var n1, n2 float32
-	fmt.Println("select your language inserting in corresponding number 🏈/Escolha seu idioma selecionando o número correspondente⚽\n 1-English\n 2-Português")
+	fmt.Println("select your language inserting in corresponding number🏈/Escolha seu idioma selecionando o número correspondente⚽\n 1-English\n 2-Português")
 	fmt.Scanln(&lan)
 	if lan == "1" {
 		fmt.Println("enter the desired operation (+, -, *, /): ")
